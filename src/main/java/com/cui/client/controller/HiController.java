@@ -12,10 +12,13 @@ public class HiController {
 
     @Value("${server.port}")
     String port;
+    
+    @Value("${spring.application.name}")
+    String applicationName;
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi " + name + " ,i am from port:" + port;
+        return "hi " + name + " ,i am from port:" + port+","+applicationName;
     }
 
 

@@ -4,3 +4,8 @@ server:
 spring:
   application:
     name: eurekaClient
+  cloud:
+    config:
+      uri: http://192.168.204.130:8888/
+      profile: dev
+      label: master
