@@ -1,17 +1,17 @@
-server:
-  port: 8763
-
-spring:
-  application:
-    name: eureka-client
-  cloud:
-    config:
-      uri:
-      profile: dev
-      label: master
-eureka:
-  instance:
-    hostname: eureka-client
+#server:
+#  port: 8763
+#
+#spring:
+#  application:
+#    name: eureka-client
+#  cloud:
+#    config:
+#      uri:
+#      profile: dev
+#      label: master
+#eureka:
+#  instance:
+#    hostname: eureka-client
 
 
 
