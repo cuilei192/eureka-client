@@ -3,4 +3,21 @@ server:
 
 spring:
   application:
-    name: eurekaClient
+    name: eureka-client
+  cloud:
+    config:
+      uri:
+      profile: dev
+      label: master
+eureka:
+  instance:
+    hostname: eureka-client
+
+
+
+
+
+
+
+
+
